@@ -1,0 +1,48 @@
+.container * {margin: 0.5;
+    padding: 0.5;
+    box-sizing: border-box;
+
+}
+/* Body & Container */
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+background-color: grey; 
+color: white;  
+line-height: 1.6;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+/* Header */
+header {
+    background-color: gray;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+}
+ /* About Section */
+.about-section {
+  margin-top: 1rem;
+  text-align: right;
+}
+.about-content {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Profile-pic {
+    width: 180px;
+    height: 180pt;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);}
